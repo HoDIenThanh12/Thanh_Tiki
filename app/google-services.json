@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "373728550738",
+    "firebase_url": "https://fir-24393-default-rtdb.firebaseio.com",
+    "project_id": "fir-24393",
+    "storage_bucket": "fir-24393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373728550738:android:52c67364a21d79bde4248b",
+        "android_client_info": {
+          "package_name": "com.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373728550738-lsmimdaktmjce7tk13006h157p9h8kan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1nkx5jgN944PtxfVD3LpUCvhIH9oylx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373728550738-lsmimdaktmjce7tk13006h157p9h8kan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373728550738:android:e65a31fc394d34fbe4248b",
+        "android_client_info": {
+          "package_name": "com.example.tiki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373728550738-lsmimdaktmjce7tk13006h157p9h8kan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1nkx5jgN944PtxfVD3LpUCvhIH9oylx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373728550738-lsmimdaktmjce7tk13006h157p9h8kan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373728550738:android:436529b9f6303b3fe4248b",
+        "android_client_info": {
+          "package_name": "com.ths4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373728550738-lsmimdaktmjce7tk13006h157p9h8kan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1nkx5jgN944PtxfVD3LpUCvhIH9oylx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373728550738-lsmimdaktmjce7tk13006h157p9h8kan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

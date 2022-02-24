@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".app_canhbao.MainActivityHomes">
+
+
+
+    <FrameLayout
+        android:background="@color/colorcard"
+        android:id="@+id/frame_page2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_weight="1">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpage2_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+<!--    <FrameLayout-->
+<!--        android:background="@color/mauxamnen"-->
+<!--        android:id="@+id/frame_page"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1" />-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/mauxamnen"
+        app:itemIconTint="@color/custom_color_navigation"
+        app:itemTextColor="@color/custom_color_navigation"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_navigation_menu"
+        tools:ignore="ObsoleteLayoutParam" />
+
+</LinearLayout>
+    <!--    android:layout_above="@+id/bottom_navigation"-->

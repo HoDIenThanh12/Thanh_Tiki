@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".app_canhbao.fragments.FragmentAbout">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:paddingBottom="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/custom_scollview_about">
+                    <TextView
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chào mừng người dùng: "/>
+                    <EditText
+                        android:id="@+id/tv_NameA"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ff0000"
+                        android:background="@android:color/transparent"
+                        android:hint="Tên người dùng: "/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center">
+                        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                            android:id="@+id/btn_Update_Editor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sữa hồ sơ"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/custom_button2"
+                            />
+                        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:background="@drawable/custom_button2"
+                            android:text="Đăng xuất"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ScrollView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_scollview_about"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="25dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:textStyle="italic"
+                            android:text="Thông tin cá nhân người dùng:" />
+                    </FrameLayout>
+                    <RelativeLayout
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_marginTop="0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="10dp"
+                                android:background="@drawable/custom_profile_tv_ip"
+                                >
+                                <TextView
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Khoa/Viện: " />
+
+                                <EditText
+                                    android:textSize="17dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/tv_KhoaA"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:hint="Mời bạn nhập Khoa/viện...." />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="10dp"
+                                android:background="@drawable/custom_profile_tv_ip"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginTop="15dp"
+                                >
+                                <TextView
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Tên lớp:" />
+
+                                <EditText
+                                    android:textSize="17dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/tv_ClassA"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:hint="Mời bạn nhập tên lớp...." />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="10dp"
+                                android:background="@drawable/custom_profile_tv_ip"
+                                android:layout_marginTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                >
+                                <TextView
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="MSSV: " />
+
+                                <EditText
+                                    android:textSize="17dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/tv_MSSVA"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:hint="Mời bạn nhập MSSV...." />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="10dp"
+                                android:background="@drawable/custom_profile_tv_ip"
+                                android:layout_marginTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_centerVertical="true"
+                                >
+                                <TextView
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="GV/SV: " />
+
+                                <RadioGroup
+                                    android:id="@+id/gr_CategoryA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:text="Giảng viên">
+
+
+                                    <RadioButton
+                                        android:id="@+id/rds_GVA"
+                                        android:text="Giảng viên"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="20dp"/>
+                                    <RadioButton
+                                        android:id="@+id/rds_SVA"
+                                        android:text="Sinh viên"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        />
+
+                                </RadioGroup>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="10dp"
+                                android:background="@drawable/custom_profile_tv_ip"
+                                android:layout_marginTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                >
+                                <TextView
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Eamil:" />
+
+                                <EditText
+                                    android:textSize="17dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/tv_EmailA"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:hint="Mời bạn nhập Email...." />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="10dp"
+                                android:background="@drawable/custom_profile_tv_ip"
+                                android:layout_marginTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                >
+                                <TextView
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Nhập pass:" />
+
+                                <EditText
+                                    android:textSize="17dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/tv_PassA"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:hint="Mời bạn nhập Pass...." />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="10dp"
+                                android:background="@drawable/custom_profile_tv_ip"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                >
+                                <TextView
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ID Account:" />
+
+                                <EditText
+                                    android:textSize="17dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/tv_IDAccountA"
+                                    android:background="@android:color/transparent"
+                                    android:enabled="true"
+                                    android:hint="Nhập ID...." />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

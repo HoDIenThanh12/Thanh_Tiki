@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    tools:context=".ggmap.MainActivityDMGGM">
+    <EditText
+        android:id="@+id/txtStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address start..."
+        />
+    <EditText
+
+        android:id="@+id/txtTheEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address the end..."
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tìm"
+        />
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapNearBy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+</LinearLayout>

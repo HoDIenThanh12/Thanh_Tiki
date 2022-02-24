@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/mauxamnen"/>
+    <corners android:radius="20dp"/>
+    <item name="android:shadowColor"
+        tools:ignore="MissingPrefix">#000000</item>
+    <item name="android:shadowRadius"
+        tools:ignore="MissingPrefix">5</item>
+    <item name="android:shadowDy"
+        tools:ignore="MissingPrefix">3</item>
+</shape>
